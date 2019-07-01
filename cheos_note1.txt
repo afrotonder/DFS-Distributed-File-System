@@ -1,0 +1,50 @@
+Proyecto DFS
+Pasos para atacar el proyecto.  Por favor, empiecen ya.  Aprovechen esta semana para que las dudas las podamos hablar la semana entrante.
+
+ 
+
+0. Leer las instrucciones y las funciones.  Imprimirlos o tenerlos siempre abierto mientas están desarrollando el programa.
+
+ 
+
+1. Correr el script que genera la base de datos.
+
+
+2.  Implementar el metadata-server.py  (Moderado)
+
+
+3.  Implementar el ls.py  (Sencillo)
+ 
+
+4. Aprender a enviar un archivo de un cliente a un servidor, usando TCP.  
+En otras palabras, escriban un programa client.py y otro programa server.py 
+donde el cliente le envíe un archivo al servidor.  
+Para saber cuanto el servidor tiene que leer del archivo, el cliente debe enviarle primero el tamaño del archivo al servidor.
+
+ 
+
+Cliente:  Toma 500bytes
+
+Servidor: OK mandame el file.
+
+Cliente: Toma el file de 500 bytes
+
+Servidor: Ya recibí 500 bytes
+
+Cliente: Cool
+
+ 
+
+Deben usar la misma librería que se usa en el esqueleto del proyecto.  SocketServer.TCPServer
+
+ 
+
+5. Implementar el copy  (Complejo)
+
+ 
+
+Nota:  Este proyecto no se resuelve en unas pocas horas.  No se resuelve en un solo día.  
+Yo diría que cada componente les puede tomar 1 día full dependiendo de cuan diestro usted este programando.
+
+
+hw4
